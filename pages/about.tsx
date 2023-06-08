@@ -1,4 +1,4 @@
-import { Htag } from "@/components/Htag.tsx/Htag";
+import { Htag } from "@/components/Htag/Htag";
 
 export default function About() {
     return (
