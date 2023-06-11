@@ -24,9 +24,6 @@ function Home({menu, firstCategory}: HomeProps): JSX.Element {
       <P size='l'>Big size</P>
       <P size='m'>Medium size</P>
       <P size='s'>Small size</P>
-      <ul>
-        {menu.map(i => (<li key={i._id.secondCategory}>{i._id.secondCategory}</li>))}
-      </ul>
       {console.log(menu)}
 
     </>
